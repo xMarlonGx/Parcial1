@@ -192,6 +192,7 @@ Widget Password() {
     child: TextFormField(
       autofocus: true,
       autocorrect: true,
+      obscureText: true,
       decoration: InputDecoration(
         hintText: "Password",
         fillColor: Colors.white,
@@ -210,6 +211,7 @@ Widget PasswordConfirmar() {
     child: TextFormField(
       autofocus: true,
       autocorrect: true,
+      obscureText: true,
       decoration: InputDecoration(
         hintText: "Confirmar Password",
         fillColor: Colors.white,
