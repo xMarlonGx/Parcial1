@@ -130,6 +130,9 @@ Widget Direccion() {
       child: Container(
     padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
     child: TextFormField(
+      minLines: 1,
+      maxLines: 5,
+      keyboardType: TextInputType.multiline,
       autofocus: true,
       autocorrect: true,
       decoration: InputDecoration(
@@ -148,6 +151,9 @@ Widget Email() {
       child: Container(
     padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
     child: TextFormField(
+      minLines: 1,
+      maxLines: 5,
+      keyboardType: TextInputType.multiline,
       autofocus: true,
       autocorrect: true,
       decoration: InputDecoration(
